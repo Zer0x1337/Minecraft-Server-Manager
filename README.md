@@ -1,7 +1,7 @@
 # Requirements
  - Python3
  - Ngrok (Snapd install recommended)
- - Linux Based OS (Recommended)
+ - Linux Based OS (Built for Linux but you could easily convert to windows)
 # Features
  - Option to run with/without ngrok 
  - Easy server start with custom memory amount 
