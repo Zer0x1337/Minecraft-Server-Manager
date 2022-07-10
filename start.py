@@ -21,7 +21,7 @@ print("   [2] Launch Existing Minecraft Server\n")
 option = int(input(">>> "))
 
 if option == 1:
-    
+
     if platform == "linux" or platform == "linux2":
         os.system('clear')
     elif platform == "win32":
@@ -37,7 +37,10 @@ if option == 1:
         elif platform == "win32":
             os.system('cls')
 
-        call(["gnome-terminal", "-x", "sh", "-c", "sudo ngrok tcp 25565; bash"])
+        if platform == "linux" or platform == "linux2":
+            call(["gnome-terminal", "-x", "sh", "-c", "sudo ngrok tcp 25565; bash"])
+        elif platform == "win32":
+            call('start /wait python bb.py', shell=True)
 
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
@@ -59,7 +62,10 @@ if option == 1:
 
         mem_option_ngrok = str(input("\n   How Much Memory(Mb)?\n\n>>> "))
 
-        call(["gnome-terminal", "-x", "sh", "-c", "sudo ngrok tcp 25565; bash"])
+        if platform == "linux" or platform == "linux2":
+            call(["gnome-terminal", "-x", "sh", "-c", "sudo ngrok tcp 25565; bash"])
+        elif platform == "win32":
+            call('start /wait python bb.py', shell=True)
 
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
