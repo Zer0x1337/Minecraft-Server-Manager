@@ -5,8 +5,6 @@ from subprocess import call
 
 if platform == "linux" or platform == "linux2":
     os.system('clear')
-elif platform == "win32":
-    os.system('cls')
 
 if platform == "linux" or platform == "linux2":
     terminal_title = "Made by: k0xyy on GitHub"
@@ -24,8 +22,6 @@ if option == 1:
 
     if platform == "linux" or platform == "linux2":
         os.system('clear')
-    elif platform == "win32":
-        os.system('cls')
 
     mem_option_ngrok = str(input("\n   How Much Memory(Mb)?\n\n>>> "))
     mem_option_ngrok_check = str(input("\n   Are you sure you want to give this server " + mem_option_ngrok + "Mb of Memory? (Y/n)\n\n>>> "))
@@ -34,8 +30,6 @@ if option == 1:
 
         if platform == "linux" or platform == "linux2":
             os.system('clear')
-        elif platform == "win32":
-            os.system('cls')
 
         if platform == "linux" or platform == "linux2":
             call(["gnome-terminal", "-x", "sh", "-c", "sudo ngrok tcp 25565; bash"])
@@ -57,8 +51,6 @@ if option == 1:
 
         if platform == "linux" or platform == "linux2":
             os.system('clear')
-        elif platform == "win32":
-            os.system('cls')
 
         mem_option_ngrok = str(input("\n   How Much Memory(Mb)?\n\n>>> "))
 
@@ -82,8 +74,6 @@ if option == 2:
 
     if platform == "linux" or platform == "linux2":
         os.system('clear')
-    elif platform == "win32":
-        os.system('cls')
 
     mem_option = str(input("\n   How Much Memory(Mb)?\n\n>>> "))
     mem_option_check = str(input("\n   Are you sure you want to give this server " + mem_option + "Mb of Memory? (Y/n)\n\n>>> "))
@@ -92,8 +82,6 @@ if option == 2:
 
         if platform == "linux" or platform == "linux2":
             os.system('clear')
-        elif platform == "win32":
-            os.system('cls')
 
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
@@ -110,8 +98,6 @@ if option == 2:
 
         if platform == "linux" or platform == "linux2":
             os.system('clear')
-        elif platform == "win32":
-            os.system('cls')
 
         mem_option = str(input("\n   How Much Memory(Mb)?\n\n>>> "))
         if platform == "linux" or platform == "linux2":
