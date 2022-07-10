@@ -82,9 +82,9 @@ if option == 2:
             print(f'\33]0;{terminal_title2}\a', end='', flush=True)
 
         if platform == "linux" or platform == "linux2":
-            os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
+            os.system('sudo java -Xmx' + mem_option + 'M -Xms' + mem_option + 'M -jar server.jar nogui')
         elif platform == "win32":
-            os.system('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar')
+            os.system('java -Xmx' + mem_option + 'M -Xms' + mem_option + 'M -jar server.jar')
 
     if mem_option_check == "n" or "N":
 
@@ -92,13 +92,14 @@ if option == 2:
             os.system('clear')
 
         mem_option = str(input("\n   How Much Memory(Mb)?\n\n>>> "))
+
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
             print(f'\33]0;{terminal_title2}\a', end='', flush=True)
         
         if platform == "linux" or platform == "linux2":
-            os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
+            os.system('sudo java -Xmx' + mem_option + 'M -Xms' + mem_option + 'M -jar server.jar nogui')
         elif platform == "win32":
-            os.system('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar')
+            os.system('java -Xmx' + mem_option + 'M -Xms' + mem_option + 'M -jar server.jar')
 
 
