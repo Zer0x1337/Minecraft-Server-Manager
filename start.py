@@ -1,13 +1,14 @@
 import os
 import sys
+from sys import platform
 from subprocess import call
 
 os.system('clear')
 
-terminal_title = "MC Server Launcher"
+terminal_title = "Made by: k0xyy on GitHub"
 print(f'\33]0;{terminal_title}\a', end='', flush=True)
 
-print("1337 Local-Hosted Minecraft Server Launcher. Made by: Making new Github...\n")
+print("Simple and 1337 AF Minecraft Server Launcher\n")
 print("   [1] Launch Existing Minecraft Server With Ngrok\n")
 print("   [2] Launch Existing Minecraft Server\n")
 option = int(input(">>> "))
