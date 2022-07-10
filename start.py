@@ -9,8 +9,6 @@ if platform == "linux" or platform == "linux2":
 if platform == "linux" or platform == "linux2":
     terminal_title = "Made by: k0xyy on GitHub"
     print(f'\33]0;{terminal_title}\a', end='', flush=True)
-elif platform == "win32":
-    os.system('title Made by: k0xyy on GitHub')
 
 
 print("Simple yet 1337 AF Minecraft Server Launcher\n")
@@ -39,8 +37,6 @@ if option == 1:
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
             print(f'\33]0;{terminal_title2}\a', end='', flush=True)
-        elif platform == "win32":
-            os.system('title MC Server')
         
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
@@ -62,8 +58,6 @@ if option == 1:
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
             print(f'\33]0;{terminal_title2}\a', end='', flush=True)
-        elif platform == "win32":
-            os.system('title MC Server')
 
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
@@ -86,8 +80,6 @@ if option == 2:
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
             print(f'\33]0;{terminal_title2}\a', end='', flush=True)
-        elif platform == "win32":
-            os.system('title MC Server')
 
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
@@ -103,8 +95,6 @@ if option == 2:
         if platform == "linux" or platform == "linux2":
             terminal_title2 = "MC Server"
             print(f'\33]0;{terminal_title2}\a', end='', flush=True)
-        elif platform == "win32":
-            os.system('title MC Server')
         
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
