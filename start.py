@@ -41,7 +41,7 @@ if option == 1:
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
         elif platform == "win32":
-            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui', shell=True)
+            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar', shell=True)
 
     if mem_option_ngrok_check == "n" or "N":
 
@@ -62,7 +62,7 @@ if option == 1:
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
         elif platform == "win32":
-            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui', shell=True)
+            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar', shell=True)
 
 if option == 2:
 
@@ -84,7 +84,7 @@ if option == 2:
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
         elif platform == "win32":
-            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui', shell=True)
+            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar', shell=True)
 
     if mem_option_check == "n" or "N":
 
@@ -99,6 +99,6 @@ if option == 2:
         if platform == "linux" or platform == "linux2":
             os.system('sudo java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui')
         elif platform == "win32":
-            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar nogui', shell=True)
+            call('java -Xmx' + mem_option_ngrok + 'M -Xms' + mem_option_ngrok + 'M -jar server.jar', shell=True)
 
 
