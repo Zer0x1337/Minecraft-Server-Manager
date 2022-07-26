@@ -4,7 +4,7 @@
  - Windows or Linux OS
 # Features
  - Option to run with/without ngrok 
- - Easy server start with custom memory amount 
+ - Easy server start with custom memory input 
 # How to use
  - Setup a Minecraft server and accept eula.
  - In the server directory input "sudo python3 start.py" on linux, double click "start.py" to run on windows
