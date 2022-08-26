@@ -3,11 +3,11 @@ import sys
 from sys import platform
 from subprocess import call
 
-def clear:
+def clear():
     if platform == "linux" or platform == "linux2":
-    os.system('clear')
-elif platform == "win32":
-    os.system('cls')
+        os.system('clear')
+    elif platform == "win32":
+        os.system('cls')
 
     
 
